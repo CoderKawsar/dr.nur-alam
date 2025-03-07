@@ -35,21 +35,15 @@ export default function NavMenu() {
                 </NavigationMenuLink>
                 <NavigationMenuLink
                   className="hover:text-gray-500"
-                  href="/research/publications"
+                  href="/research/projects"
                 >
                   Projects
                 </NavigationMenuLink>
                 <NavigationMenuLink
                   className="hover:text-gray-500"
-                  href="/research/publications"
+                  href="/research/research-guidance"
                 >
                   Research Guideline
-                </NavigationMenuLink>
-                <NavigationMenuLink
-                  className="hover:text-gray-500"
-                  href="/research/publications"
-                >
-                  Paper Presented
                 </NavigationMenuLink>
               </div>
             </NavigationMenuContent>
