@@ -13,6 +13,17 @@ const phdStudents = [
     jobStatus: "Assistant Professor",
     status: "Complete",
   },
+  {
+    image: image1,
+    name: "Uzzal Saha",
+    projectTitle: "Cryptography and secure communication",
+    registrationNumber: "140354",
+    session: "2014-15",
+    email: "uzzal.saha@pust.ac.bd",
+    mobile: "+8801712123456",
+    jobStatus: "Assistant Professor",
+    status: "Complete",
+  },
 ];
 const mPhilStudents = [
   {
@@ -58,7 +69,7 @@ function ResearchGuidance() {
         ))}
       </div>
       <h2 className="mt-16 text-3xl text-[#FF6900] border-b border-[#FF6900] raleway-font font-bold mb-4 pb-2">
-        MPhil Students
+        M.Phil. Students
       </h2>
       <div>
         {mPhilStudents.map((students, index) => (
@@ -66,7 +77,7 @@ function ResearchGuidance() {
         ))}
       </div>
       <h2 className="mt-16 text-3xl text-[#FF6900] border-b border-[#FF6900] raleway-font font-bold mb-4 pb-2">
-        MSc Students
+        M.Sc. Students
       </h2>
       <div>
         {mScStudents.map((students, index) => (

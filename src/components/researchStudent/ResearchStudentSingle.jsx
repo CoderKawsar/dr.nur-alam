@@ -2,15 +2,15 @@ import Image from "next/image";
 
 function ResearchStudentSingle({ students }) {
   return (
-    <div className="flex gap-x-4 mb-4">
-      <div className="h-[400px]">
+    <div className="flex mb-6 shadow rounded">
+      <div className="h-[350px] rounded-l">
         <Image
           src={students.image}
           alt="Student"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-l"
         />
       </div>
-      <div className="flex flex-col gap-y-2 newsreader-font text-[17px]">
+      <div className="pl-4 pt-4 bg-[#FDF5CB] flex flex-col gap-y-2 newsreader-font text-[17px] rounded-r">
         <h4 className="text-xl font-semibold">
           Name: <span className="font-normal">{students.name}</span>
         </h4>
