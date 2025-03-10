@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function PublicationsPage() {
   const publications = [
     {
@@ -140,6 +142,29 @@ function PublicationsPage() {
   const publicationCount = publications.length;
   return (
     <div className="w-[650px] mt-16 mx-auto">
+      <div className="flex justify-center gap-x-8">
+        <Link
+          className="text-xl newsreader-font font-bold border-b hover:border-white"
+          href="https://www.scopus.com/authid/detail.uri?authorId=55979705100"
+          target="_blank"
+        >
+          Scopus
+        </Link>
+        <Link
+          className="text-xl newsreader-font font-bold border-b hover:border-white"
+          href="https://scholar.google.com/citations?user=JziOjEgAAAAJ"
+          target="_blank"
+        >
+          Google Scholar
+        </Link>
+        <Link
+          className="text-xl newsreader-font font-bold border-b hover:border-white"
+          href="https://www.researchgate.net/profile/Md-Nur-Alam-2"
+          target="_blank"
+        >
+          Research Gate
+        </Link>
+      </div>
       <h2 className="mt-10 text-3xl text-[#FF6900] border-b border-[#FF6900] raleway-font font-bold mb-4 pb-2">
         Journal Articles
       </h2>
