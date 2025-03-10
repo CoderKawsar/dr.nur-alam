@@ -49,14 +49,35 @@ export default function NavMenu() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link
-              href="/invited-talks-workshops"
-              legacyBehavior
-              passHref
-              className="font-medium text-base"
-            >
-              Talks/Workshops
-            </Link>
+            <NavigationMenuTrigger>Talks/Workshops</NavigationMenuTrigger>
+            <NavigationMenuContent className="bg-white">
+              <div className="w-[550px]">
+                <NavigationMenuLink
+                  className="hover:text-gray-500"
+                  href="/invited-talks-workshops"
+                >
+                  Keynote/Invited/Guest
+                </NavigationMenuLink>
+                <NavigationMenuLink
+                  className="hover:text-gray-500"
+                  href="/invited-talks-workshops"
+                >
+                  Chair/Co-chair
+                </NavigationMenuLink>
+                <NavigationMenuLink
+                  className="hover:text-gray-500"
+                  href="/invited-talks-workshops"
+                >
+                  Workshop/Seminars
+                </NavigationMenuLink>
+                <NavigationMenuLink
+                  className="hover:text-gray-500"
+                  href="/invited-talks-workshops"
+                >
+                  Oral Talks
+                </NavigationMenuLink>
+              </div>
+            </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger className="font-medium text-base">

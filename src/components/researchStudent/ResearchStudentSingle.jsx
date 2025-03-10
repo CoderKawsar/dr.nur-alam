@@ -3,14 +3,14 @@ import Image from "next/image";
 function ResearchStudentSingle({ students }) {
   return (
     <div className="flex mb-6 shadow rounded">
-      <div className="h-[350px] rounded-l">
+      <div className="h-[350px] w-[500px] rounded-l">
         <Image
           src={students.image}
           alt="Student"
           className="w-full h-full object-cover rounded-l"
         />
       </div>
-      <div className="pl-4 pt-4 bg-[#FDF5CB] flex flex-col gap-y-2 newsreader-font text-[17px] rounded-r">
+      <div className="px-4 pt-4 bg-[#FDF5CB] w-full flex flex-col gap-y-2 newsreader-font text-[17px] rounded-r">
         <h4 className="text-xl font-semibold">
           Name: <span className="font-normal">{students.name}</span>
         </h4>

@@ -1,11 +1,14 @@
-import image1 from "@/assets/images/Students/Uzzal Saha.jpg";
+import uzzalSahaPic from "@/assets/images/Students/Uzzal Saha.jpg";
+import mayaPic from "@/assets/images/Students/Mst. Umme Mahbuba Maya.jpg";
+import farzanaMunniPic from "@/assets/images/Students/farzana munni.jpg";
+import shahidHasanPic from "@/assets/images/Students/shahid-hasan.jpg";
 import ResearchStudentSingle from "@/components/researchStudent/ResearchStudentSingle";
 
 const phdStudents = [
   {
-    image: image1,
+    image: uzzalSahaPic,
     name: "Uzzal Saha",
-    projectTitle: "Cryptography and secure communication",
+    projectTitle: "Machine Learning and ANN",
     registrationNumber: "140354",
     session: "2014-15",
     email: "uzzal.saha@pust.ac.bd",
@@ -14,40 +17,40 @@ const phdStudents = [
     status: "Complete",
   },
   {
-    image: image1,
-    name: "Uzzal Saha",
+    image: mayaPic,
+    name: "Mst. Umme Mahbuba Maya",
     projectTitle: "Cryptography and secure communication",
-    registrationNumber: "140354",
-    session: "2014-15",
-    email: "uzzal.saha@pust.ac.bd",
-    mobile: "+8801712123456",
-    jobStatus: "Assistant Professor",
+    registrationNumber: "12014",
+    session: "2009-10",
+    email: "maya.umme@pust.ac.bd",
+    mobile: "+8801712123474",
+    jobStatus: "Lecturer",
     status: "Complete",
   },
 ];
 const mPhilStudents = [
   {
-    image: image1,
-    name: "Uzzal Saha",
-    projectTitle: "Cryptography and secure communication",
+    image: farzanaMunniPic,
+    name: "Farzana munni",
+    projectTitle: "Machine Learning and ANN",
     registrationNumber: "140354",
     session: "2014-15",
-    email: "uzzal.saha@pust.ac.bd",
+    email: "munni.farzana@pust.ac.bd",
     mobile: "+8801712123456",
-    jobStatus: "Assistant Professor",
+    jobStatus: "Lecturer",
     status: "Complete",
   },
 ];
 const mScStudents = [
   {
-    image: image1,
-    name: "Uzzal Saha",
-    projectTitle: "Cryptography and secure communication",
-    registrationNumber: "140354",
-    session: "2014-15",
-    email: "uzzal.saha@pust.ac.bd",
-    mobile: "+8801712123456",
-    jobStatus: "Assistant Professor",
+    image: shahidHasanPic,
+    name: "Md. Shahid Hasan",
+    projectTitle: "A Comprehensive Study of B-spline Curves",
+    registrationNumber: "160374",
+    session: "2017-18",
+    email: "shahid.hossain2@pust.ac.bd",
+    mobile: "+8801712413456",
+    jobStatus: "Lecturer",
     status: "Complete",
   },
 ];
