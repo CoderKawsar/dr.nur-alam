@@ -94,6 +94,16 @@ export default function NavMenu() {
               </div>
             </NavigationMenuContent>
           </NavigationMenuItem>
+          <NavigationMenuItem className="mr-4">
+            <Link
+              href="/joint-works"
+              legacyBehavior
+              passHref
+              className="font-medium text-base"
+            >
+              Joint Works
+            </Link>
+          </NavigationMenuItem>
           <NavigationMenuItem>
             <Link
               href="/about"

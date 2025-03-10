@@ -1,5 +1,6 @@
 import Image from "next/image";
 import image from "@/assets/images/nur-alam.jpg";
+import ClientAbout from "./clientAbout";
 
 function AboutPage() {
   return (
@@ -210,6 +211,7 @@ function AboutPage() {
           </div>
         </div>
       </div>
+      <ClientAbout />
     </div>
   );
 }
