@@ -106,7 +106,7 @@ export default function NavMenu() {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link
-              href="https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100041"
+              href="/about"
               legacyBehavior
               passHref
               className="font-medium text-base"

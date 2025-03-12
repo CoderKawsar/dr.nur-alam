@@ -32,7 +32,7 @@ function AboutPage() {
             Pabna - 6600, Bangladesh
           </h4>
           <p className="text-right italic text-[20px] newsreader-font">
-            +8801716438752
+            +8801716438757
           </p>
           <a
             href="mailto:nur.alam@pust.ac.bd"
@@ -211,7 +211,6 @@ function AboutPage() {
           </div>
         </div>
       </div>
-      <ClientAbout />
     </div>
   );
 }
